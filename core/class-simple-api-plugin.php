@@ -41,9 +41,10 @@ class Simple_API_Plugin {
 	    $response = wp_remote_post( $url, array(
 	        'body'    => $data,
 	        'headers' => array(
-	            'Authorization' => 'Basic ' . base64_encode( $username . ':' . $password ),
+	            //'Authorization' => 'Basic ' . base64_encode( $username . ':' . $password
+	            ),
 	        ),
-	    ) );
+	    );
 	    return $response;
 	}
 	
