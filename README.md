@@ -1,2 +1,2 @@
 # simple-plugin
-Simple Wordpress plugin skeletor.
+Simple Wordpress API plugin skeletor.
